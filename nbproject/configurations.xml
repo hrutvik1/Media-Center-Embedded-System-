@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>../718projFinal/Font_16x24_h.h</itemPath>
+      <itemPath>../718projFinal/Font_6x8_h.h</itemPath>
+      <itemPath>../718projFinal/GLCD.h</itemPath>
+      <itemPath>../718projFinal/KBD.h</itemPath>
+      <itemPath>../718projFinal/audio/KBD.h</itemPath>
+      <itemPath>../718projFinal/LED.h</itemPath>
+      <itemPath>../718projFinal/LPC17xx.h</itemPath>
+      <itemPath>../718projFinal/audio/audio.h</itemPath>
+      <itemPath>../718projFinal/system_LPC17xx.h</itemPath>
+      <itemPath>../718projFinal/audio/usb.h</itemPath>
+      <itemPath>../718projFinal/audio/usbaudio.h</itemPath>
+      <itemPath>../718projFinal/audio/usbdmain.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>../718projFinal/Blinky.c</itemPath>
+      <itemPath>../718projFinal/GLCD_SPI_LPC1700.c</itemPath>
+      <itemPath>../718projFinal/IRQ.c</itemPath>
+      <itemPath>../718projFinal/KBD.c</itemPath>
+      <itemPath>../718projFinal/LED.c</itemPath>
+      <itemPath>../718projFinal/flappy.c</itemPath>
+      <itemPath>../718projFinal/ie.c</itemPath>
+      <itemPath>../718projFinal/nowpanic.c</itemPath>
+      <itemPath>../718projFinal/paper.c</itemPath>
+      <itemPath>../718projFinal/rockIcon.c</itemPath>
+      <itemPath>../718projFinal/scissors.c</itemPath>
+      <itemPath>../718projFinal/spongebob.c</itemPath>
+      <itemPath>../718projFinal/usbdmain.c</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+      </compileType>
+      <item path="../718projFinal/Blinky.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../718projFinal/Font_16x24_h.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../718projFinal/Font_6x8_h.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../718projFinal/GLCD.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../718projFinal/GLCD_SPI_LPC1700.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../718projFinal/IRQ.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../718projFinal/KBD.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../718projFinal/KBD.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../718projFinal/LED.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../718projFinal/LED.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../718projFinal/LPC17xx.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../718projFinal/audio/KBD.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../718projFinal/audio/audio.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../718projFinal/audio/usb.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../718projFinal/audio/usbaudio.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../718projFinal/audio/usbdmain.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../718projFinal/flappy.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../718projFinal/ie.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../718projFinal/nowpanic.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../718projFinal/paper.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../718projFinal/rockIcon.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../718projFinal/scissors.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../718projFinal/spongebob.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../718projFinal/system_LPC17xx.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../718projFinal/usbdmain.c" ex="false" tool="0" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="../718projFinal/Blinky.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../718projFinal/Font_16x24_h.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../718projFinal/Font_6x8_h.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../718projFinal/GLCD.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../718projFinal/GLCD_SPI_LPC1700.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../718projFinal/IRQ.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../718projFinal/KBD.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../718projFinal/KBD.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../718projFinal/LED.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../718projFinal/LED.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../718projFinal/LPC17xx.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../718projFinal/audio/KBD.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../718projFinal/audio/audio.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../718projFinal/audio/usb.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../718projFinal/audio/usbaudio.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../718projFinal/audio/usbdmain.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../718projFinal/flappy.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../718projFinal/ie.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../718projFinal/nowpanic.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../718projFinal/paper.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../718projFinal/rockIcon.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../718projFinal/scissors.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../718projFinal/spongebob.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../718projFinal/system_LPC17xx.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../718projFinal/usbdmain.c" ex="false" tool="0" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
